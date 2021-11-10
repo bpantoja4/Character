@@ -1,5 +1,4 @@
-Intialize
-#main
+#Main
 print('Which cartoon character are you?')
 print('Answer the following questions to find out')
 ans = input('summer(s) or winter(w)?')
