@@ -1,0 +1,33 @@
+Intialize
+#main
+print('Which cartoon character are you?')
+print('Answer the following questions to find out')
+ans = input('summer(s) or winter(w)?')
+if ans =='s':
+    ans = input('pink(p) or purple(pu)?')
+    if ans  == 'p':
+        ans = input('ice cream(ic) or pizza(p)?')
+        if ans == 'ic':
+            print('Your cartoon character is Patrick Star')
+        else:
+            print('Your cartoon character is Mickey Mouse')
+    if ans == 'pu':
+        ans = input('math(m) or science(s)?')
+        if ans == 'm':
+            print('Your cartoon character is Timmy Turner')
+        else:
+            print('Your cartoon character is Velma Dinkley')
+if ans =='w':
+    ans = input('blue(b) or green(g)?')
+    if ans == 'b':
+        ans = input('outside(o) or inside(i)?')
+        if ans == 'o':
+            print('Your cartoon character is Lola Bunny')
+        else:
+            print('Your cartoon character is Jessica Rabbit')
+    if ans == 'g':
+        ans = input('theme park(tp) or water park(wp)?')
+        if ans == 'tp':
+            print('Your cartoon character is Stewie Griffin')
+        else:
+            print('Your cartoon character is Homer Simpson')
